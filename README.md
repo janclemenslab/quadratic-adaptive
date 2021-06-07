@@ -15,6 +15,3 @@ __Directory structure:__
 __Usage:__
 - run `fit_models.m` twice, with the `filename` in lines 4-5 set to `dat/noise_20160311_8.mat` and `dat/step_20140625_1.mat`, respectively. This will fit the model for two variants of the noise stimulus and save the results in `res/`.
 - To plot the results, run `plot_predictions.m` and `plot_eigendecomposition.m`. This will load and plot the results from `res/`.
-
-
-The code and data will be made available at [github.com/janclemenslab/quadratic-adaptive](https://github.com/janclemenslab/quadratic-adaptive).
